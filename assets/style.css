@@ -120,10 +120,11 @@ main {
 }
 
 .image-container {
-    
+    margin-bottom: 1em;
 }
 
 .content-container {
+    width: 90%;
 }
 
 /* Footer */
