@@ -62,6 +62,31 @@ header a {
     list-style-type: none;
 }
 
+/* Menu styles with manu-toggle */
+
+nav {
+    position: absolute;
+    background-color: #e3e3e3;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+#menu-toggle:checked~nav {
+    display: block;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-toggle-label {
+    font-size: 2rem;
+}
+
 /* Main */
 main {
     margin-top: 100px;
@@ -99,23 +124,3 @@ main {
 
 /* Media Queries */
 
-/* Media query: tablets and larger (768px +)  */
-
-@media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu > li {
-        padding-left: 1rem;
-    }
-}
