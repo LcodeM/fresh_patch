@@ -31,6 +31,10 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+main > p {
+    text-align: center;
+}
+
 /* Header */
 
 header {
@@ -97,6 +101,12 @@ nav {
 /* Main */
 main {
     margin-top: 75px;
+}
+
+#main-carrot {
+    display: flex;
+    font-size: 150%;
+    justify-content: center;
 }
 
 #benefits {
@@ -204,7 +214,5 @@ main {
         display: flex;
     }
 
-    section {
-        width: 100%;
-    }
+
 }
