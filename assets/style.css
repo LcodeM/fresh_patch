@@ -48,7 +48,9 @@ header a {
 }
 
 /* Main */
-
+main {
+    margin-top: 100px;
+}
 
 #benefits {
     display: flex;
