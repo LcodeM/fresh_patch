@@ -1,8 +1,18 @@
 /* Font ID import here*/
 
 /* Wildcard to override browser defaults? */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /* Generic body styles */
+body {
+    display: flex;
+    min-height: 100vh;
+
+}
 
 /* Header */
 
@@ -12,7 +22,6 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -39,6 +48,7 @@ header a {
 }
 
 /* Main */
+
 
 #benefits {
     display: flex;
