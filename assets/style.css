@@ -10,9 +10,27 @@
 }
 
 #logo-icon{
-    
+
 }
 
 #menu {
 
+}
+
+/* Main */
+
+#benefits {
+    border-color: red;
+}
+
+#beginner-tips {
+    border-color: red;
+}
+
+.image-container {
+    border-color: blue;
+}
+
+.content-container {
+    border-color: blue;
 }
