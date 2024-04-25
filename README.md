@@ -1,4 +1,4 @@
-Fresh Patch
+<h1> Fresh Patch <h1>
 
 A website dedicated to supporting beginner gardeners on their journey to growing their own food, offering useful tips for every season. 
 
