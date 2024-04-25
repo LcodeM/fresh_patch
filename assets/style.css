@@ -5,23 +5,40 @@
 /* Generic body styles */
 
 /* Header */
-#logo {
 
+header {
+    background-color: #E3E3E3;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    color: #34482A;
 }
 
 #logo-icon{
-
+    color: #34482A;
 }
 
 #menu {
-
+    color: #34482A;
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
 }
 
 /* Main */
-
-body {
-    background-color: #53684C;
-}
 
 #benefits {
     display: flex;
