@@ -70,7 +70,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #34482A;
     display: none;
     top: 100%;
 }
@@ -89,7 +89,7 @@ nav {
 
 /* Main */
 main {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 #benefits {
