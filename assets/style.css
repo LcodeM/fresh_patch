@@ -162,4 +162,10 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #34482A;
     }
+
+    /* Main */
+    section {
+        width: 100%;
+        margin-left: 3rem;
+    }
 }
