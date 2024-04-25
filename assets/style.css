@@ -7,11 +7,12 @@
     box-sizing: border-box;
 }
 
-/* Placeholder styling for flex */
+/* Styling for flex */
 section {
     border-color: red;
     border-style: solid;
     padding: 1em;
+    margin: 1rem;
 }
 
 section div {
@@ -160,6 +161,33 @@ main {
 
     .menu-toggle-label {
         display: none;
+    }
+
+    #benefits {
+        flex-direction: row;
+    }
+
+    #benefits div {
+        margin-right: 2rem;
+    }
+
+    .content-container {
+        width: 100%;
+    }
+
+    #beginner-tips {
+        flex-direction: row;
+        padding: 0 1rem;
+    }
+
+    #beginner-tips .image-container {
+        order: 2;
+        margin-left: 2rem;
+    }
+
+    #beginner-tips .content-container {
+        padding-left: 2rem;
+        text-align: center;
     }
 }
 
