@@ -136,6 +136,7 @@ main {
 
 .content-container {
     width: 90%;
+    padding: 1em;
 }
 
 /* Footer */
@@ -213,6 +214,4 @@ main {
     body {
         display: flex;
     }
-
-
 }
