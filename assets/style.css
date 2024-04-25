@@ -28,6 +28,13 @@
     border-style: solid;
 }
 
+#benefits-image {
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #beginner-tips {
     display: flex;
     flex-direction: column;
