@@ -11,6 +11,8 @@
 section {
     border-color: red;
     border-style: solid;
+    margin: 2em 0;
+    padding: 1em;
 }
 
 section div {
@@ -160,3 +162,4 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #34482A;
     }
+}
