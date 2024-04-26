@@ -11,8 +11,12 @@
 section {
     border-color: red;
     border-style: solid;
-    padding: 1em;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3E3E3;
 }
 
 section div {
@@ -25,6 +29,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #34482A;
 }
 
 h1, h2, h3, h4 {
@@ -109,18 +114,12 @@ main {
     justify-content: center;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .circle-image {
     width:  100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: #000000;
 }
 
 .image-container {
@@ -139,7 +138,13 @@ section {
     box-shadow: #000;
 }
 
+/* Index */
+
+
+
 /* Seasonal Suggestions page */
+
+
 
 /* Subscribe page */
 
@@ -193,6 +198,7 @@ section {
 
 footer {
     margin-top: auto;
+    background-color: #E3E3E3;
 }
 
 #social-networks {
@@ -201,6 +207,10 @@ footer {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+#social-networks i {
+    color: #835937;
 }
 
 /* Media Queries */
