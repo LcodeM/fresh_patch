@@ -167,12 +167,26 @@ section {
 }
 
 #response div {
-    margin: 1rem 0;
     justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 #response p {
     text-transform: capitalize;
+}
+
+#repsonse-button {
+    padding: 1rem;
+    align-self: center;
+}
+
+#home-button {
+    margin-top: 1em;
+    border-radius: 5%;
+    text-decoration: none;
+    box-shadow: #000;
+    padding-top: 1rem;
 }
 
 /* Footer */
