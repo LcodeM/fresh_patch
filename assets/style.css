@@ -116,6 +116,13 @@ main {
     justify-content: center;
 }
 
+.circle-image {
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #benefits-image {
     width:  100px;
     height: 100px;
