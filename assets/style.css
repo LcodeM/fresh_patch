@@ -17,14 +17,7 @@ section {
     align-items: center;
     justify-content: center;
     background-color: #E3E3E3;
-    border-style: groove;
-    border-radius: 1%;
     box-shadow: rgb(00, 00, 00) 0px 20px 30px -10px;
-}
-
-section div {
-    border-color: blue;
-    border-style: solid;
 }
 
 /* Generic body styles */
@@ -146,6 +139,10 @@ main > p {
     padding: 1em;
 }
 
+.subscribe {
+    padding: 1rem;
+}
+
 .subscribe-page-button {
     margin-top: 1em;
     border-radius: 5%;
@@ -167,13 +164,21 @@ main > p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 #newsletter div {
     margin: 1rem 0;
+}
+
+.form-container {
     justify-content: center;
+    padding: 1em;
+}
+
+#form-button {
+    
 }
 
 /* Response page */
@@ -311,7 +316,13 @@ footer {
 
     .subscribe {
         flex-direction: column;
-        padding: 0 1rem;
+        padding: 1rem;
+    }
+    
+    /* Subscribe page */
+
+    #newsletter {
+        margin-top: 3rem;
     }
 }
 
@@ -335,6 +346,10 @@ footer {
     .circle-image {
         width:  200px;
         height: 200px;
+    }
+
+    section {
+        margin: 5rem 3rem;
     }
 
 }
