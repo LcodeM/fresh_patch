@@ -123,13 +123,6 @@ main {
     border-radius: 50%;
 }
 
-#benefits-image {
-    width:  100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
 #beginner-tips {
     display: flex;
     flex-direction: column;
@@ -220,5 +213,9 @@ main {
     /* Main */
     body {
         display: flex;
+    }
+
+    main {
+        margin: 4rem;
     }
 }
