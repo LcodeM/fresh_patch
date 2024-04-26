@@ -33,6 +33,13 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background-color: #34482A;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2 ,h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
 }
 
 /* Header */
