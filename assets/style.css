@@ -109,7 +109,7 @@ main {
     justify-content: center;
 }
 
-#benefits {
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,13 +121,6 @@ main {
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
-}
-
-#beginner-tips {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .image-container {
@@ -179,7 +172,7 @@ main {
         height: 200px;
     }
 
-    #benefits {
+    section {
         flex-direction: row;
         padding: 0 1rem;
     }
@@ -205,6 +198,26 @@ main {
 
     #beginner-tips .content-container {
         padding-left: 2rem;
+    }
+
+    #spring .image-container {
+        order: 2;
+        margin-left: 2rem;
+    }
+
+    #autumn .image-container {
+        order: 2;
+        margin-left: 2rem;
+    }
+
+    #todays-tip {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        padding: 0 1rem;
     }
 }
 
