@@ -174,8 +174,14 @@ main {
         display: none;
     }
 
+    .circle-image {
+        width:  200px;
+        height: 200px;
+    }
+
     #benefits {
         flex-direction: row;
+        padding: 0 1rem;
     }
 
     #benefits .content-container {
@@ -218,4 +224,10 @@ main {
     main {
         margin: 4rem;
     }
+
+    .circle-image {
+        width:  200px;
+        height: 200px;
+    }
+
 }
