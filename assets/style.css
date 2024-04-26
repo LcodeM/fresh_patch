@@ -141,9 +141,19 @@ section {
 
 /* Seasonal Suggestions page */
 
+/* Subscribe page */
 
+#newsletter div {
+    margin: 1rem 0;
+    justify-content: center;
+}
 
 /* Footer */
+
+footer {
+    margin-top: auto;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
