@@ -173,12 +173,14 @@ main > p {
 }
 
 .form-container {
-    justify-content: center;
+    display: flex;
     padding: 1em;
+    flex-direction: column;
 }
 
 #form-button {
-    
+    display: flex;
+    justify-content: center;
 }
 
 /* Response page */
@@ -323,6 +325,13 @@ footer {
 
     #newsletter {
         margin-top: 3rem;
+    }
+
+    .form-container {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1em;
+        flex-direction: row;
     }
 }
 
