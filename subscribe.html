@@ -34,7 +34,35 @@
     </header>
     <!-- Main content -->
     <main>
-        
+        <section id="newsletter">
+            <form id="newsletter-signup" action="response.html">
+                <h2>Subscribe to our Fresh Patch newsletter for more tips and tricks!</h2>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Beginner</label>
+                        <input type="radio" id="beginner" value="beginner" name="experience_level" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Intermediate</label>
+                        <input type="radio" id="intermediate" value="intermediate" name="experience_level" required>
+                    </div>
+                    <div>
+                        <label for="both">Experienced</label>
+                        <input type="radio" id="experienced" value="experienced" name="experience_level" required>
+                    </div>
+                </div>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" name="email_address" class="text-input" required>
+                <br>
+                <button></button>
+            </form>
+        </section>
     </main>
     <footer>
         <div>
