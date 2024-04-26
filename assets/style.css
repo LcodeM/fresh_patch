@@ -143,6 +143,14 @@ section {
 
 /* Subscribe page */
 
+#newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
 #newsletter div {
     margin: 1rem 0;
     justify-content: center;
