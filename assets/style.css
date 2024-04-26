@@ -17,6 +17,8 @@ section {
     align-items: center;
     justify-content: center;
     background-color: #E3E3E3;
+    border-style: groove;
+    border-radius: 2%;
     box-shadow: rgb(00, 00, 00) 0px 20px 30px -10px;
 }
 
@@ -44,6 +46,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    box-shadow: rgb(00, 00, 00) 0px 10px 15px -5px;
 }
 
 header a {
@@ -252,6 +255,7 @@ footer {
     section {
         flex-direction: row;
         padding: 0 1rem;
+        border-radius: 1% auto;
     }
 
     /* Index page */ 
