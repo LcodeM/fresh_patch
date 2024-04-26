@@ -32,14 +32,6 @@ body {
     background-color: #34482A;
 }
 
-h1, h2, h3, h4 {
-    text-align: center;
-}
-
-main > p {
-    text-align: center;
-}
-
 /* Header */
 
 header {
@@ -108,6 +100,19 @@ main {
     margin-top: 75px;
 }
 
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+main > p {
+    text-align: center;
+}
+
+.introduction {
+    color: #E3E3E3;
+    text-align: center;
+}
+
 #main-carrot {
     display: flex;
     font-size: 150%;
@@ -119,7 +124,6 @@ main {
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: inset 0 0 25px 25px #000000;
 }
 
 .image-container {
