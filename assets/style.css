@@ -132,6 +132,17 @@ section {
     padding: 1em;
 }
 
+.subscribe-page-button {
+    margin-top: 1em;
+    border-radius: 5%;
+    text-decoration: none;
+    box-shadow: #000;
+}
+
+/* Seasonal Suggestions page */
+
+
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -177,6 +188,8 @@ section {
         padding: 0 1rem;
     }
 
+    /* Index page */ 
+
     #benefits .content-container {
         padding-left: 1rem;
     }
@@ -200,14 +213,18 @@ section {
         padding-left: 2rem;
     }
 
+    /* Seasonal Suggestions page */
+
+    .seasons .image-container {
+        margin: 2rem;
+    }
+
     #spring .image-container {
         order: 2;
-        margin-left: 2rem;
     }
 
     #autumn .image-container {
         order: 2;
-        margin-left: 2rem;
     }
 
     #todays-tip {
