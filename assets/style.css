@@ -156,6 +156,25 @@ section {
     justify-content: center;
 }
 
+/* Response page */
+
+#response {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+#response div {
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+#response p {
+    text-transform: capitalize;
+}
+
 /* Footer */
 
 footer {
