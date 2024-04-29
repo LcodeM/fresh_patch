@@ -120,11 +120,6 @@ button {
     text-transform: uppercase;
 }
 
-button:hover {
-    background-color: #E3E3E3;
-    color: #835937;
-}
-
 .introduction {
     color: #E3E3E3;
     text-align: center;
@@ -277,6 +272,11 @@ footer {
     section {
         flex-direction: row;
         padding: 16px;
+    }
+
+    button:hover {
+        background-color: #E3E3E3;
+        color: #835937;
     }
 
     /* Index page */ 
