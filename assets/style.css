@@ -113,6 +113,18 @@ main > p {
     text-align: center;
 }
 
+button {
+    text-decoration: none !important;
+    background-color: #835937;
+    color: #E3E3E3;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #E3E3E3;
+    color: #835937;
+}
+
 .introduction {
     color: #E3E3E3;
     text-align: center;
@@ -165,8 +177,6 @@ main > p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
 }
 
 #newsletter div {
@@ -195,27 +205,24 @@ main > p {
 }
 
 #response div {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
 
 #response p {
-    text-transform: capitalize;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 #repsonse-button {
     padding: 1rem;
+    justify-content: center;
     align-self: center;
 }
 
-#home-button {
-    margin-top: 1em;
-    border-radius: 5%;
-    text-decoration: none;
-    box-shadow: #000;
-    padding-top: 1rem;
-}
 
 /* Footer */
 
