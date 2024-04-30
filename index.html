@@ -19,11 +19,11 @@
     <!-- Header -->
     <header>
         <a href="index.html" aria-label="Go to our homepage. Page opens in the same window.">
-            <h1 id="logo">Fresh Patch <i class="fa-solid fa-carrot" id="logo-icon" aria-label="A carrot icon."></i></h1>
+            <h1 id="logo">Fresh Patch <i class="fa-solid fa-carrot" id="logo-icon" aria-hidden="true"></i></h1>
         </a>
         <!-- Nav toggle button placeholder -->
         <input type="checkbox" id="menu-toggle" name="menu-toggle">
-        <label for="menu-toggle" class="menu-toggle-label"><i class="fa-solid fa-bars" aria-label="Three horizontal bars icon to represent the menu. Opens into dropdown list of pages."></i></label>
+        <label for="menu-toggle" class="menu-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <!-- Nav bar -->
         <nav>
             <ul id="menu">
@@ -38,7 +38,7 @@
         <div class="introduction">
             <h2>Welcome to Fresh Patch</h2>
             <br>
-            <i id="main-carrot" class="fa-solid fa-carrot" aria-label="A carrot icon."></i>
+            <i id="main-carrot" class="fa-solid fa-carrot" aria-hidden="true"></i>
             <br>
             <p>A page dedicated to supporting gardeners from the very beginning of their journey, offering advice and daily top tips, through every season. </p>
         </div>
@@ -101,9 +101,10 @@
             <h4>Subscribe to our newsletter!</h4>
             <br>
             <p>Don't forget to sign up to our newsletter for more tips and stories from our community.</p>
-            <button class="subscribe-page-button">
-                <a href="subscribe.html" aria-label="Go to subscribe page to subscribe to our newsletter. (Page opens in the same window.)">Subscribe now!</a>
-            </button>
+            <br>
+            <form style="display: inline" action="subscribe.html" method="get">
+                <button aria-label="Go to subscribe page to subscribe to our newsletter. (Page opens in the same window.)">Subscribe</button>
+              </form>
         </section>
     </main>
     <!-- Footer -->
