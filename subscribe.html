@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,11 +19,11 @@
     <!-- Header -->
     <header>
         <a href="index.html" aria-label="Go to our homepage. Page opens in the same window.">
-            <h1 id="logo">Fresh Patch <i class="fa-solid fa-carrot" id="logo-icon" aria-label="A carrot icon."></i></h1>
+            <h1 id="logo">Fresh Patch <i class="fa-solid fa-carrot" id="logo-icon" aria-hidden="true"></i></h1>
         </a>
         <!-- Nav toggle button placeholder -->
         <input type="checkbox" id="menu-toggle" name="menu-toggle">
-        <label for="menu-toggle" class="menu-toggle-label"><i class="fa-solid fa-bars" aria-label="Three horizontal bars icon to represent the menu. Opens into dropdown list of pages."></i></label>
+        <label for="menu-toggle" class="menu-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <!-- Nav bar -->
         <nav>
             <ul id="menu">
@@ -42,15 +43,15 @@
                 <div class="form-container">
                     <div class="radio-buttons">
                         <div>
-                            <label for="road">Beginner</label>
+                            <label for="beginner">Beginner</label>
                             <input type="radio" id="beginner" value="beginner" name="experience_level" required checked>
                         </div>
                         <div>
-                            <label for="trail">Intermediate</label>
+                            <label for="intermediate">Intermediate</label>
                             <input type="radio" id="intermediate" value="intermediate" name="experience_level" required>
                         </div>
                         <div>
-                            <label for="both">Experienced</label>
+                            <label for="experienced">Experienced</label>
                             <input type="radio" id="experienced" value="experienced" name="experience_level" required>
                         </div>
                     </div>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,11 +19,11 @@
     <!-- Header -->
     <header>
         <a href="index.html">
-            <h1 id="logo">Fresh Patch <i class="fa-solid fa-carrot" id="logo-icon" aria-label="A carrot icon."></i></h1>
+            <h1 id="logo">Fresh Patch <i class="fa-solid fa-carrot" id="logo-icon" aria-hidden="true"></i></h1>
         </a>
         <!-- Nav toggle button placeholder -->
         <input type="checkbox" id="menu-toggle" name="menu-toggle">
-        <label for="menu-toggle" class="menu-toggle-label"><i class="fa-solid fa-bars" aria-label="A carrot icon."></i></label>
+        <label for="menu-toggle" class="menu-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <!-- Nav bar -->
         <nav>
             <ul id="menu">
@@ -56,7 +57,6 @@
                 <br>
                 <ul>
                     <li>Potatoes</li>
-                    <br>
                     <li>Garlic</li>
                 </ul>
                 <br>
@@ -81,11 +81,8 @@
                 <br>
                 <ul>
                     <li>Herbs</li>
-                    <br>
                     <li>Seeds</li>
-                    <br>
                     <li>Peas</li>
-                    <br>
                     <li>Tomatoes</li>
                 </ul>
                 <br>
@@ -108,11 +105,8 @@
                 <br>
                 <ul>
                     <li>Beans</li>
-                    <br>
                     <li>Swiss Chard</li>
-                    <br>
                     <li>Cucumbers</li>
-                    <br>
                     <li>Lettuce</li>
                 </ul>
                 <br>
@@ -137,7 +131,6 @@
                 <br>
                 <ul>
                     <li>Pumpkins</li>
-                    <br>
                     <li>Turnips</li>
                 </ul>
                 <br>
@@ -160,8 +153,13 @@
         </section>
         <!-- Subscribe button -->
         <section class="subscribe">
+            <h4>Subscribe to our newsletter!</h4>
+            <br>
             <p>Don't forget to sign up to our newsletter for more tips and stories from our community.</p>
-            <button class="subscribe-page-button"><a href="subscribe.html" aria-label="Go to subscribe page to subscribe to our newsletter. (Page opens in the same window.)">Subscribe now!</a></button>
+            <br>
+            <form style="display: inline" action="subscribe.html" method="get">
+                <button aria-label="Go to subscribe page to subscribe to our newsletter. (Page opens in the same window.)">Subscribe</button>
+            </form>
         </section>
     </main>
     <footer>
