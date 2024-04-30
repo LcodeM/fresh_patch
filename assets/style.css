@@ -134,12 +134,6 @@ button a {
     text-align: center;
 }
 
-#main-carrot {
-    display: flex;
-    font-size: 150%;
-    justify-content: center;
-}
-
 .circle-image {
     width:  100px;
     height: 100px;
@@ -166,7 +160,15 @@ button a {
 
 /* Index */
 
+#main-carrot {
+    display: flex;
+    font-size: 150%;
+    justify-content: center;
+}
 
+.introduction {
+    margin: 0 1rem;
+}
 
 /* Seasonal Suggestions page */
 
@@ -291,6 +293,10 @@ footer {
 
     /* Index page */ 
 
+    .introduction {
+        margin: 0 1rem;
+    }
+
     #benefits .content-container {
         padding-left: 1rem;
     }
@@ -365,6 +371,10 @@ footer {
 
     main {
         margin: 4rem;
+    }
+
+    .introduction {
+        margin: 0 3rem;
     }
 
     .circle-image {
