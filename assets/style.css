@@ -213,7 +213,9 @@ button a {
 
 /* Seasonal Suggestions page */
 
-
+.seasons li {
+    margin-left: 2rem;
+}
 
 /* Subscribe page */
 
@@ -317,8 +319,6 @@ footer {
         width:  200px;
         height: 200px;
     }
-
-
 
     section {
         flex-direction: row;
